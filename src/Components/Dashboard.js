@@ -70,8 +70,9 @@ export default function Dashboard() {
                             </div>
                             <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
                             </div>
-                            <div>
-                                <Rating onClick={handleRating} ratingValue={rating}  size={22}/>
+                            <div className="mx-2" style={{display:"flex"}}>
+                                <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
+                                <Rating onClick={handleRating} ratingValue={rating} size={23} />
                             </div>
                             <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                             <hr/>
@@ -104,8 +105,9 @@ export default function Dashboard() {
                             </div>
                             <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
                             </div>
-                            <div>
-                                <Rating onClick={handleRating} ratingValue={rating} size={22} />
+                            <div className="mx-2" style={{display:"flex"}}>
+                                <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
+                                <Rating onClick={handleRating} ratingValue={rating} size={23} />
                             </div>
                             <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                             <hr/>
@@ -144,8 +146,9 @@ export default function Dashboard() {
                                     </div>
                                     <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
                                     </div>
-                                    <div>
-                                        <Rating onClick={handleRating} ratingValue={rating} size={23}  />
+                                    <div className="mx-2" style={{display:"flex"}}>
+                                        <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
+                                        <Rating onClick={handleRating} ratingValue={rating} size={23} />
                                     </div>
                                     <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                                     <hr/>
@@ -185,25 +188,29 @@ export default function Dashboard() {
                                     return(
                                       
                                             <div className="col-xl col-lg-3 col-md-3 col-sm-6 pb-2 mb-2" >
-                                            <div className="card-box p-1" style={{ borderRadius: '10px', border:'3px solid #07A189'}}>
+                                            <div className="card-box px-0.5 pt-1" style={{ borderRadius: '10px', border:'2px solid #07A189'}}>
                                             <div className="card-thumbnail">
                                                 <img src={Img1} className="img-fluid" style={{width: "100%"}}/>
                                             </div>
-                                            <div class="row mx-3 mb-1 mt-2">
+                                            <div class="row mx-2 mt-1">
                                             <div class="col-sm-4">
                                             <img src={p1} className="img-fluid" style={{width: "50px", height:"50px", borderRadius: '6px', borderColor:"1px solid #0AB79B"}}/>
                                             </div>
-                                            <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
+                                            <div class="col-sm-8" style={{fontSize:"20px"}}>
+                                                <p className="mb-0">Eleanor Pena</p>
+                                                <p style={{fontSize: "10px"}}>View Profile</p>
                                             </div>
-                                            <div>
-                                                <Rating onClick={handleRating} ratingValue={rating} size={22} />
                                             </div>
-                                            <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
+                                            <div className="mx-2" style={{display:"flex"}}>
+                                                <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
+                                                <Rating onClick={handleRating} ratingValue={rating} size={23} />
+                                            </div>
+                                            <p className="text-secondary mx-0.5">There are many variations of passages of Lorem Ipsum available,</p>
                                             <hr/>
                                             <div className="row mx-1">
                                                 <div className="col-6">
                                                     <h5>Rs 2000</h5>
-                                                    <p>Starting Price</p>
+                                                    <p style={{fontSize:"10px"}}>Starting Price</p>
                                                 </div>
                                                 <div className="col-6">
                                                 <button
@@ -256,7 +263,7 @@ export default function Dashboard() {
                                             <div className="col-xl col-lg-3 col-md-3 col-sm-6 pb-2 mb-2" >
                                             <div className="card-box" style={{ borderRadius: '10px', backgroundColor:"#ffffff"}}>
                                             <div className="card-thumbnail">
-                                                <img src={block5} className="img-fluid" style={{width: "100%", height:"300px"}}/>
+                                                <img src={block5} className="img-fluid" style={{width: "100%", height:"220px"}}/>
                                             </div>
                                             <div class="row mx-3 mb-1 mt-2">
                                             <div class="col-sm-4">
@@ -264,9 +271,9 @@ export default function Dashboard() {
                                             </div>
                                             <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
                                             </div>
-                                            <div className="row">
-                                                {/* <div className="col mr-5">4.9</div> */}
-                                                <div className="col"><Rating onClick={handleRating} ratingValue={rating} size={22} /></div>
+                                            <div className="mx-2" style={{display:"flex"}}>
+                                                <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
+                                                <Rating onClick={handleRating} ratingValue={rating} size={23} />
                                             </div>
                                             <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                                             <hr/>
