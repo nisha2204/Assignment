@@ -201,17 +201,17 @@ export default function Dashboard() {
                                             <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                                             <hr/>
                                             <div className="row mx-1">
-                                                <div className="col">
+                                                <div className="col-6">
                                                     <h5>Rs 2000</h5>
                                                     <p>Starting Price</p>
                                                 </div>
-                                                <div className="col">
+                                                <div className="col-6">
                                                 <button
                                                 type="button"
-                                                className="btn btn px-4 mx-3 mt-2"
+                                                className="btn btn px-4 mt-2"
                                                 style={{backgroundColor: "black"}}
                                                 >
-                                                <b>Select</b>
+                                                <b style={{color:"#ffffff"}}>Select</b>
                                                 </button>
                                                 </div>
 
