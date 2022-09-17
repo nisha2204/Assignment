@@ -1,0 +1,112 @@
+.f-slider {
+  margin: 50px 5%;
+}
+.f-heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0ab79b;
+}
+.f-heading h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+.f-card {
+  width: 230px;
+  height: 360px;
+  background: #e7fffb;
+  border-radius: 20px;
+  margin-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.f-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+.f-des {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #b1b1b1;
+}
+.ellips2 {
+  position: absolute;
+  left: 0;
+  top: 996px;
+}
+.ellips1 {
+  position: absolute;
+  left: 0;
+  top: 954px;
+}
+.f-position {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 3px;
+
+  color: #888888;
+}
+.setting-btn {
+  width: 50px;
+  height: 36px;
+  background-color: #000000;
+  border-radius: 6px;
+}
+.setting-btn1 {
+  width: 50px;
+  height: 36px;
+  background-color: #d9d9d9;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 688px) {
+  .ellips2 {
+    display: none;
+  }
+  .ellips1 {
+    display: none;
+  }
+  .f-card {
+    display: block;
+    margin: auto;
+  }
+
+  .setting-btn1 {
+    width: 52.54px;
+    height: 25.22px;
+  }
+  .freela-btn {
+    outline: none;
+    border:none;
+  }
+  .setting-btn {
+    width: 52.54px;
+    height: 25.22px;
+  }
+}
+@media only screen and (min-width: 688px) {
+  .ellips2 {
+    display: none;
+  }
+  .ellips1 {
+    display: none;
+  }
+  .f-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

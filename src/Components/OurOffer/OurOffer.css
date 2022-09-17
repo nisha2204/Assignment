@@ -1,0 +1,65 @@
+.offer-section {
+  width: 100%;
+  height: 586px;
+  background-color: #0ab79b;
+}
+.offer-img {
+  width: 65px;
+  height: 65px;
+  background: rgba(217, 217, 217, 0.38);
+  border: 1.5px solid #ffffff;
+  border-radius: 10px;
+}
+.offer-img img {
+  display: block;
+  margin: auto;
+}
+
+.offer-content {
+  margin-left: 25px;
+}
+.offer-content h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
+}
+.offer-content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 688px) {
+  .offer-section {
+    width: 100%;
+    height: 980px;
+  }
+  .offer-content p {
+    font-size: 1rem;
+  }
+  .offer-left-img {
+    width: 80%;
+  }
+  .offer-content p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .offer-content {
+    margin-left: 2px;
+  }
+  .offer-content h5 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .offer-headeing h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .offer-headeing p {
+    text-align: center;
+  }
+}

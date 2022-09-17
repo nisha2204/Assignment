@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Eleanor Pena",
+    "position": "Backend Developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "img": "https://i.ibb.co/YjZ6Vhd/eleanor.png"
+  },
+  {
+    "id": "2",
+    "name": "Albert Flores",
+    "position": "Backend Developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "img": "https://i.ibb.co/w75ZzFb/albert.png"
+  },
+  {
+    "id": "3",
+    "name": "Cameron Williamson",
+    "position": "Backend Developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "img": "https://i.ibb.co/hVnrp2s/cameron.png"
+  },
+  {
+    "id": "4",
+    "name": "Kristin Watson",
+    "position": "Backend Developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "img": "https://i.ibb.co/jJDqPQ7/kristin.png"
+  },
+  {
+    "id": "5",
+    "name": "Eleanor Pena",
+    "position": "Backend Developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "img": "https://i.ibb.co/KXdxVTV/annette.png"
+  }
+]
