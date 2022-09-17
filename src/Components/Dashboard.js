@@ -68,7 +68,10 @@ export default function Dashboard() {
                             <div class="col-sm-4">
                             <img src={p1} className="img-fluid" style={{width: "50px", height:"50px", borderRadius: '6px', borderColor:"1px solid #0AB79B"}}/>
                             </div>
-                            <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
+                            <div class="col-sm-8" style={{fontSize:"20px"}}>
+                                                <p className="mb-0">Eleanor Pena</p>
+                                                <p style={{fontSize: "10px"}}>View Profile</p>
+                                            </div>
                             </div>
                             <div className="mx-2" style={{display:"flex"}}>
                                 <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
@@ -77,11 +80,11 @@ export default function Dashboard() {
                             <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                             <hr/>
                             <div className="row mx-1">
-                                                <div className="col">
-                                                    <h5>Rs 2000</h5>
-                                                    <p style={{fontSize:"10px"}}>Starting Price</p>
+                                                <div className="col-6 mb-2">
+                                                    <h5 style={{marginBottom:"0px"}}>Rs 2000</h5>
+                                                    <p style={{marginBottom:"0px"}}>Starting Price</p>
                                                 </div>
-                                                <div className="col">
+                                                <div className="col-6 mb-2">
                                                 <button
                                                 type="button"
                                                 className="btn btn px-4 mx-3 mt-2"
@@ -103,7 +106,10 @@ export default function Dashboard() {
                             <div class="col-sm-4">
                             <img src={p1} className="img-fluid" style={{width: "50px", height:"50px", borderRadius: '6px', borderColor:"1px solid #0AB79B"}}/>
                             </div>
-                            <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
+                            <div class="col-sm-8" style={{fontSize:"20px"}}>
+                            <p className="mb-0">Eleanor Pena</p>
+                            <p style={{fontSize: "10px"}}>View Profile</p>
+                            </div>
                             </div>
                             <div className="mx-2" style={{display:"flex"}}>
                                 <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
@@ -112,21 +118,20 @@ export default function Dashboard() {
                             <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                             <hr/>
                             <div className="row mx-1">
-                                                <div className="col">
-                                                    <h5>Rs 2000</h5>
-                                                    <p style={{fontSize:"10px"}}>Starting Price</p>
-                                                </div>
-                                                <div className="col">
-                                                <button
-                                                type="button"
-                                                className="btn btn px-4 mx-3 mt-2"
-                                                style={{backgroundColor: "black"}}
-                                                >
-                                                <b style={{color:"#ffffff"}}>Select</b>
-                                                </button>
-                                                </div>
-
-                                            </div>
+                            <div className="col-6 mb-2">
+                            <h5 style={{marginBottom:"0px"}}>Rs 2000</h5>
+                            <p style={{marginBottom:"0px"}}>Starting Price</p>
+                            </div>
+                            <div className="col-6 mb-2">
+                            <button
+                            type="button"
+                            className="btn btn px-4 mx-3 mt-2"
+                            style={{backgroundColor: "black"}}
+                            >
+                            <b style={{color:"#ffffff"}}>Select</b>
+                            </button>
+                            </div>
+                            </div>
                         </div>
                     </div>
                     </div>
@@ -144,7 +149,10 @@ export default function Dashboard() {
                                     <div class="col-sm-4">
                                     <img src={p1} className="img-fluid" style={{width: "50px", height:"50px", borderRadius: '6px', borderColor:"1px solid #0AB79B"}}/>
                                     </div>
-                                    <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
+                                    <div class="col-sm-8" style={{fontSize:"20px"}}>
+                                    <p className="mb-0">Eleanor Pena</p>
+                                    <p style={{fontSize: "10px"}}>View Profile</p>
+                                    </div>
                                     </div>
                                     <div className="mx-2" style={{display:"flex"}}>
                                         <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
@@ -153,24 +161,22 @@ export default function Dashboard() {
                                     <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                                     <hr/>
                                     <div className="row mx-1">
-                                                <div className="col">
-                                                    <h5>Rs 2000</h5>
-                                                    <p style={{fontSize:"10px"}}>Starting Price</p>
-                                                </div>
-                                                <div className="col">
-                                                <button
-                                                type="button"
-                                                className="btn btn px-4 mx-3 mt-2"
-                                                style={{backgroundColor: "black"}}
-                                                >
-                                                <b style={{color:"#ffffff"}}>Select</b>
-                                                </button>
-                                                </div>
-
-                                            </div>
+                                        <div className="col-6 mb-2">
+                                        <h5 style={{marginBottom:"0px"}}>Rs 2000</h5>
+                                        <p style={{marginBottom:"0px"}}>Starting Price</p>
+                                        </div>
+                                        <div className="col-6 mb-2">
+                                        <button
+                                        type="button"
+                                        className="btn btn px-4 mx-2 mt-2"
+                                        style={{backgroundColor: "black"}}
+                                        >
+                                        <b style={{color:"#ffffff"}}>Select</b>
+                                        </button>
+                                        </div>
+                                    </div>
                                 </div>
-                            
-                            </div>
+                                </div>
                             )
                         })}
                 
@@ -208,11 +214,11 @@ export default function Dashboard() {
                                             <p className="text-secondary mx-0.5">There are many variations of passages of Lorem Ipsum available,</p>
                                             <hr/>
                                             <div className="row mx-1">
-                                                <div className="col-6">
-                                                    <h5>Rs 2000</h5>
-                                                    <p style={{fontSize:"10px"}}>Starting Price</p>
+                                                <div className="col-6 mb-2">
+                                                    <h5 style={{marginBottom:"0px"}}>Rs 2000</h5>
+                                                    <p style={{marginBottom:"0px"}}>Starting Price</p>
                                                 </div>
-                                                <div className="col-6">
+                                                <div className="col-6 mb-2">
                                                 <button
                                                 type="button"
                                                 className="btn btn px-4 mt-2"
@@ -265,11 +271,14 @@ export default function Dashboard() {
                                             <div className="card-thumbnail">
                                                 <img src={block5} className="img-fluid" style={{width: "100%", height:"220px"}}/>
                                             </div>
-                                            <div class="row mx-3 mb-1 mt-2">
+                                            <div class="row mx-1 mt-1">
                                             <div class="col-sm-4">
                                             <img src={p1} className="img-fluid" style={{width: "50px", height:"50px", borderRadius: '6px', borderColor:"1px solid #0AB79B"}}/>
                                             </div>
-                                            <div class="col-sm-8" style={{fontSize:"20px"}}>Eleanor Pena</div>
+                                            <div class="col-sm-8" style={{fontSize:"20px"}}>
+                                                <p className="mb-0">Eleanor Pena</p>
+                                                <p style={{fontSize: "10px"}}>View Profile</p>
+                                            </div>
                                             </div>
                                             <div className="mx-2" style={{display:"flex"}}>
                                                 <h5 style={{margin:"2px", paddingTop:"1px", marginRight:"3px"}}>4.9</h5>
@@ -278,11 +287,11 @@ export default function Dashboard() {
                                             <p className="text-secondary mx-1">There are many variations of passages of Lorem Ipsum available,</p>
                                             <hr/>
                                             <div className="row mx-1">
-                                                <div className="col-6">
-                                                    <h5>Rs 2000</h5>
-                                                    <p>Starting Price</p>
+                                                <div className="col-6 mb-2">
+                                                    <h5 style={{marginBottom:"0px"}}>Rs 2000</h5>
+                                                    <p style={{marginBottom:"0px"}}>Starting Price</p>
                                                 </div>
-                                                <div className="col-6">
+                                                <div className="col-6 mb-2">
                                                 <button
                                                 type="button"
                                                 className="btn btn px-4 mt-2"
